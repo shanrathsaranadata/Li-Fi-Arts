@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginnew"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/ticked_id"
+        android:layout_width="343dp"
+        android:layout_height="50dp"
+        android:background="@drawable/email"
+        android:ems="10"
+        android:hint="Ticket ID"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/password_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="341dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/password"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/login_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="355dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/login_button"
+        app:backgroundTint="#00FFFFFF"
+        app:backgroundTintMode="add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/remberme"
+        android:layout_width="137dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.149"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_id"
+        tools:text="Rember Me" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

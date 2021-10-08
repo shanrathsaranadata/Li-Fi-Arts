@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "189754052296",
+    "project_id": "li-fi-arts-97eea",
+    "storage_bucket": "li-fi-arts-97eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189754052296:android:ee61685399cc31742c5ffd",
+        "android_client_info": {
+          "package_name": "com.example.li_fiarts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189754052296-pgm2df9u6vmm6vuipcho050hiu23h1dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBygg6S2ZVps_Ihv2WDFUmTD4ycMVsUOa0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189754052296-pgm2df9u6vmm6vuipcho050hiu23h1dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
